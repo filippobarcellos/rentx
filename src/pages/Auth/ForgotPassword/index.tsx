@@ -1,6 +1,6 @@
 import { FiMail } from "react-icons/fi";
 
-import { Input } from "shared/Input";
+import { Input } from "shared/components/Input";
 import { Button } from "shared/Button";
 
 import Audi from "assets/images/audi_large.png";

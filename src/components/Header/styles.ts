@@ -13,7 +13,7 @@ export const Content = styled.div`
   justify-content: space-between;
   width: 100%;
   height: 80px;
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 0 2rem;
 `;

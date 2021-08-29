@@ -3,14 +3,15 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { FiMail, FiLock, FiEye } from "react-icons/fi";
 
-import { Input } from "shared/Input";
+import { Input } from "shared/components/Input";
 import { Button } from "shared/Button";
-import { Modal } from "shared/Modal";
+import { Modal } from "shared/components/Modal";
 import { DefaultLayout } from "layouts/Default";
 
 import Car from "assets/images/car_red.png";
 
 import * as S from "../styles";
+import { useAuth } from "context/Auth";
 
 const inputs = [
   {

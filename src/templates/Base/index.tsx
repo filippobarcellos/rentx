@@ -1,13 +1,14 @@
-import { Header } from "shared/Header";
-import { Sidebar } from "shared/Sidebar";
+import { Header } from "components/Header";
+import { Sidebar } from "components/Sidebar";
+
 import * as S from "./styles";
 
-interface DefaultLayoutProps {
+interface BaseProps {
   title: string;
   children: React.ReactNode;
 }
 
-export const DefaultLayout = ({ title, children }: DefaultLayoutProps) => {
+export const Base = ({ title, children }: BaseProps) => {
   return (
     <S.Wrapper>
       <Sidebar />

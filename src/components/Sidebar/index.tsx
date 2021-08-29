@@ -1,6 +1,6 @@
-import { UserIcon } from "shared/Icons/User";
-import { HomeIcon } from "shared/Icons/Home";
-import { CarIcon } from "shared/Icons/Car";
+import { UserIcon } from "shared/components/Icons/User";
+import { HomeIcon } from "shared/components/Icons/Home";
+import { CarIcon } from "shared/components/Icons/Car";
 
 import Logo from "assets/images/logo.png";
 import * as S from "./styles";

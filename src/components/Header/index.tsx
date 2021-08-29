@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { UserIcon } from "shared/Icons/User";
+import { UserIcon } from "shared/components/Icons/User";
 
 import * as S from "./styles";
 
