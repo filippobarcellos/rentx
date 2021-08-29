@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  rentx-postgresql:
+    image: bitnami/postgresql:latest
+    container_name: rentx
+    restart: unless-stopped
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: docker
+      POSTGRES_PASSWORD: docker
+      POSTGRES_DB: rentx
+    volumes:
+      - postgresql-data:/bitnami/postgresql
+    networks:
+      - rentx-network
+
+volumes:
+  postgresql-data:
+
+networks:
+  rentx-network:
+    driver: bridge
